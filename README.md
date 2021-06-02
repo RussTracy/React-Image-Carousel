@@ -1,4 +1,29 @@
-# Getting Started with Create React App
+# React Portfolio
+    
+This is a React image slider desinged for a job interview with Icon Fitness.
+
+# Usage 
+
+[Deployed Site](https://russtracy.github.io/React-Image-Carousel/)
+
+![alt text](./src/assets/images/ScreenShot.jpg)
+
+# Credits
+
+Made by Russ Tracy
+
+[React](https://reactjs.org/)
+
+[Swiper](https://swiperjs.com/)
+
+# Questions
+
+[Contact Me](russ_tracy@comcast.net)
+
+[GitHub](https://github.com/russtracy)
+
+
+# Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
