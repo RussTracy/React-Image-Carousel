@@ -1,0 +1,8 @@
+@import url('reset.css');
+.swiper-container {
+    width: 500px;
+}
+
+.swiper-wrapper {
+    padding-inline-start: 0;
+}

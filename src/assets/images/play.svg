@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="13px" viewBox="0 0 10 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Play" transform="translate(-16.000000, -10.000000)" fill="#FFFFFF">
+            <path d="M17.6,10.2 L24.9333333,15.7 C25.3751611,16.0313708 25.4647042,16.6581722 25.1333333,17.1 C25.0764791,17.1758057 25.009139,17.2431458 24.9333333,17.3 L17.6,22.8 C17.1581722,23.1313708 16.5313708,23.0418278 16.2,22.6 C16.0701779,22.4269038 16,22.2163702 16,22 L16,11 C16,10.4477153 16.4477153,10 17,10 C17.2163702,10 17.4269038,10.0701779 17.6,10.2 Z" id="Rectangle"></path>
+        </g>
+    </g>
+</svg>
