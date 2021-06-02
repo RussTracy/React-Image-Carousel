@@ -1,6 +1,6 @@
 # React Portfolio
     
-This is a React image slider desinged for a job interview with Icon Fitness.
+This is a React image slider designed for a job interview with Icon Fitness.
 
 # Usage 
 
