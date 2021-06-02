@@ -4,32 +4,32 @@ import SwiperCore, { Navigation, Pagination } from 'swiper';
 import 'swiper/swiper-bundle.css';
 import './assets/css/style.css';
 
-import image1 from './assets/images/hero_1_md.jpg'
-import image2 from './assets/images/hero_2_md.jpg'
-import image3 from './assets/images/hero_3_md.jpg'
-
 SwiperCore.use([Navigation, Pagination]);
 
 function App() {
 
   const slides = [
-    // image1, image2, image3
+    <SwiperSlide key={`slide-1`} tag="div" className="image1">
+
+    </SwiperSlide>,
+    <SwiperSlide key={`slide-2`} tag="div" className="image2">
+
+    </SwiperSlide>,
+    <SwiperSlide key={`slide-3`} tag="div" className="image3">
+
+    </SwiperSlide>,
+    <SwiperSlide key={`slide-4`} tag="div" className="image4">
+
+    </SwiperSlide>,
+    <SwiperSlide key={`slide-5`} tag="div" className="image5">
+
+    </SwiperSlide>,
 
   ];
 
-  for (let i = 0; i < 5; i += 1) {
-    slides.push(
-      <SwiperSlide key={`slide-${i}`} tag="li">
-        {/* <img src={`./assets/images/hero_${i + 1}_md.jpg`} className="App-logo" alt="logo" /> */}
-        <img src={image1} className="App-logo" alt="logo" />
-      </SwiperSlide>
-    )
-  }
-
   return <React.Fragment>
-    <Swiper id="main" tag="section" wrapperTag="ul" navigation pagination >
+    <Swiper id="main" tag="section" wrapperTag="div" navigation pagination loop="true" >
       {slides}
-
     </Swiper>
   </React.Fragment>
 }

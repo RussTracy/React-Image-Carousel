@@ -1,8 +1,30 @@
 @import url('reset.css');
 .swiper-container {
-    width: 500px;
+	width: 100vw;
+	height: 100vh;
 }
 
-.swiper-wrapper {
-    padding-inline-start: 0;
+.image1, .image2, .image3, .image4, .image5 {
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.image1 {
+	background-image: url(../images/hero_1_xl.jpg);
+}
+
+.image2 {
+	background-image: url(../images/hero_2_xl.jpg);
+}
+
+.image3 {
+	background-image: url(../images/hero_3_xl.jpg);
+}
+
+.image4 {
+	background-image: url(../images/hero_4_xl.jpg);
+}
+
+.image5 {
+	background-image: url(../images/hero_5_xl.jpg);
 }
