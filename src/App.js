@@ -1,10 +1,10 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, Pagination } from 'swiper';
+import SwiperCore, { Autoplay, Navigation, Pagination, A11y } from 'swiper';
 import 'swiper/swiper-bundle.css';
 import './assets/css/style.css';
 
-SwiperCore.use([Navigation, Pagination]);
+SwiperCore.use([Autoplay, Navigation, Pagination, A11y]);
 
 function App() {
 
@@ -15,7 +15,6 @@ function App() {
         <div><span>1-Year iFit Family</span> <span>Membership Included</span></div>
         <button>Shop Bestsellers</button>
       </section>
-      {/* <img src={image1} className="App-logo" alt="logo" /> */}
     </SwiperSlide>,
     <SwiperSlide key={`slide-2`} tag="div" className="image2">
       <section className="slide-content">
@@ -23,7 +22,6 @@ function App() {
         <div><span>Experience Automatic</span> <span>Trainer Control</span></div>
         <button>Shop the X32i</button>
       </section>
-      {/* <img src={image2} className="App-logo" alt="logo" /> */}
     </SwiperSlide>,
     <SwiperSlide key={`slide-3`} tag="div" className="image3">
       <section className="slide-content">
@@ -31,7 +29,6 @@ function App() {
         <div><span>Choose the Perfect iFit</span> <span>Workouts for You</span></div>
         <button>Shop the S22i</button>
       </section>
-      {/* <img src={image3} className="App-logo" alt="logo" /> */}
     </SwiperSlide>,
     <SwiperSlide key={`slide-4`} tag="div" className="image4">
       <section className="slide-content">
@@ -39,7 +36,6 @@ function App() {
         <div><span>Work out without</span> <span>compromising joint comfort</span></div>
         <button>Shop FS14i</button>
       </section>
-      {/* <img src={image3} className="App-logo" alt="logo" /> */}
     </SwiperSlide>,
     <SwiperSlide key={`slide-5`} tag="div" className="image5">
       <section className="slide-content">
@@ -47,13 +43,17 @@ function App() {
         <div><span>Experience Innovative Reflective</span> <span>Technology with Vault</span></div>
         <button>Shop Vault</button>
       </section>
-      {/* <img src={image3} className="App-logo" alt="logo" /> */}
     </SwiperSlide>,
 
   ];
 
   return <React.Fragment>
-    <Swiper id="main" tag="section" wrapperTag="div" navigation pagination loop="true" >
+    <Swiper id="main" tag="section" wrapperTag="div" navigation pagination loop="true"
+      autoplay={{
+        "delay": 5000,
+        "disableOnInteraction": true
+      }}
+      a11y>
       {slides}
     </Swiper>
   </React.Fragment>
