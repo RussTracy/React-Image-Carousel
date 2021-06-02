@@ -28,3 +28,47 @@
 .image5 {
 	background-image: url(../images/hero_5_xl.jpg);
 }
+
+.slide-content {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 30px;
+	color: white;
+	padding: 4vw;
+	margin: 0 auto;
+	text-align: center;
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.slide-content h1 {
+	font-size: 2em;
+	text-shadow: black 0px 0px 5px;
+}
+
+.slide-content div {
+	margin: 20px 0;
+	font-size: 1.25em;
+}
+
+.slide-content span {
+	white-space: nowrap;
+}
+
+.slide-content button {
+	background-color: #007aff;
+	text-shadow: black 1px 1px 1px;
+	border: 1px solid transparent;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	padding: 1.25vw 4vw;
+	border-radius: 20px;
+}
+
+.slide-content button:hover {
+	border: 1px solid black;
+	text-shadow: black 1px 1px 5px;
+}
