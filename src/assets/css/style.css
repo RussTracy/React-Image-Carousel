@@ -1,4 +1,6 @@
 @import url('reset.css');
+/* Swiper Custom Styles */
+
 .swiper-container {
 	width: 100vw;
 	height: 100vh;
@@ -37,6 +39,10 @@
 	opacity: 1;
 }
 
+/* End Swiper Custom Styles */
+
+/* Slide Image Styles */
+
 .image1, .image2, .image3, .image4, .image5 {
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -61,6 +67,10 @@
 .image5 {
 	background-image: url(../images/hero_5_xl.jpg);
 }
+
+/* End Slide Image Styles */
+
+/* Slide Content Styles */
 
 .slide-content {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -105,6 +115,10 @@
 	border: 1px solid black;
 	text-shadow: black 1px 1px 5px;
 }
+
+/* End Slide Content Styles */
+
+/* Responsive Media Queries */
 
 @media (max-width: 1200px) {
 	.image1 {
