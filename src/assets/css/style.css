@@ -72,3 +72,54 @@
 	border: 1px solid black;
 	text-shadow: black 1px 1px 5px;
 }
+
+@media (max-width: 1200px) {
+	.image1 {
+		background-image: url(../images/hero_1_md.jpg);
+	}
+	.image2 {
+		background-image: url(../images/hero_2_md.jpg);
+	}
+	.image3 {
+		background-image: url(../images/hero_3_md.jpg);
+	}
+	.image4 {
+		background-image: url(../images/hero_4_md.jpg);
+	}
+	.image5 {
+		background-image: url(../images/hero_5_md.jpg);
+	}
+}
+
+@media (max-width: 480px) {
+	.image1 {
+		background-image: url(../images/hero_1_sm.jpg);
+	}
+	.image2 {
+		background-image: url(../images/hero_2_sm.jpg);
+	}
+	.image3 {
+		background-image: url(../images/hero_3_sm.jpg);
+	}
+	.image4 {
+		background-image: url(../images/hero_4_sm.jpg);
+	}
+	.image5 {
+		background-image: url(../images/hero_5_sm.jpg);
+	}
+	.slide-content h1 {
+		font-size: 1.5em;
+	}
+	.slide-content div {
+		font-size: .9em;
+	}
+}
+
+@media (max-width: 280px) {
+	.slide-content h1 {
+		font-size: 1.2em;
+	}
+	.slide-content div {
+		font-size: .9em;
+	}
+}
